@@ -1,4 +1,4 @@
-# U-net_using_TF2
+# U-net for Medical Image Segmentation using TF 2.x
 This example demonstrates the use of U-net model for retinal blood vessel segmentation on tensorflow 2.x
 
 # This jupyter notebook presents all requirements needed to achieve pixel-level semantic segmentation using images. This specific use case is on retinal image blood vessel segmentation as explained in the blog series:
@@ -15,6 +15,7 @@ Download the STARE vessel data
 * Download 20 images (top row) followed by the labelled vessels by Adam Hoover (second row). 
 * Unpack the images and labels in a local folder.
 * Create the following folder structure in your local folder:
+```
     ./STARE/
             │
             └───test
@@ -26,7 +27,7 @@ Download the STARE vessel data
             └───train
                 ├──images
                 └───GT
-   
+   ```
  * The following images are used to train: [image0001	image0002	image0003	image0004	image0005	image0044	image0077	image0081	image0082	image0139 ]
 * Place these images under ./STARE/train/images/ folder and the hand labelled images under ./STARE/train/GT folder
 * All remaining images are placed under ./STARE/test/images/ and the respective hand labelled images are under ./STARE/test/GT/
