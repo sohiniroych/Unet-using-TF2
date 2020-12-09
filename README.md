@@ -38,7 +38,9 @@ Download the STARE vessel data
  Precision= 0.7557, Recall= 0.8493 IoU= 0.6648 acc= 0.9606 F1= 0.7979
  
  Sample examples are:
- Predicted output:  ![Predicted blood vessels](images/predict.png)
+ Predicted output:  ![Predicted blood vessels](images/pred.png)
+ 
+ Groundtruth: ![Annotated Vessels](images/GT.png)
 
           
           
