@@ -16,12 +16,17 @@ Download the STARE vessel data
 * Unpack the images and labels in a local folder.
 * Create the following folder structure in your local folder:
     ./STARE/
-      --train
-          --images
-          --GT
-      --test
-          --images
-          --GT
+            │
+            └───test
+            |    |
+            |    |
+            |    └───images
+            |    └───GT
+            │
+            └───train
+                ├──images
+                └───GT
+   
  * The following images are used to train: [image0001	image0002	image0003	image0004	image0005	image0044	image0077	image0081	image0082	image0139 ]
 * Place these images under ./STARE/train/images/ folder and the hand labelled images under ./STARE/train/GT folder
 * All remaining images are placed under ./STARE/test/images/ and the respective hand labelled images are under ./STARE/test/GT/
