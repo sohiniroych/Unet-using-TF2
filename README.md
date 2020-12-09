@@ -18,13 +18,11 @@ Download the STARE vessel data
 ```
     ./STARE/
             │
-            └───test
-            |    |
-            |    |
+            └───train
             |    └───images
             |    └───GT
             │
-            └───train
+            └───test
                 ├──images
                 └───GT
    ```
