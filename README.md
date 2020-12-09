@@ -34,13 +34,12 @@ Download the STARE vessel data
  * The tensorboard graphs are as follows:
  ![Tensorboard losses after 80 epochs](images/tensorboard.png)
  
- * The segmentation perfromances on test images are: 
- Precision= 0.7557, Recall= 0.8493 IoU= 0.6648 acc= 0.9606 F1= 0.7979
+ ## The segmentation perfromances on test images are: 
+ ## Precision= 0.7557, Recall= 0.8493 IoU= 0.6648 acc= 0.9606 F1= 0.7979
  
  * Sample examples are:
  Predicted output:  ![Predicted blood vessels](images/pred.png)
  
- * Groundtruth: ![Annotated Vessels](images/GT.png)
 
           
           
