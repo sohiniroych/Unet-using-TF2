@@ -1,4 +1,4 @@
-# U-net for Medical Image Segmentation using TF 2.x
+# Unet for Medical Image Segmentation using TF 2.x
 This example demonstrates the use of U-net model for retinal blood vessel segmentation on tensorflow 2.x
 
 # This jupyter notebook presents all requirements needed to achieve pixel-level semantic segmentation using images. This specific use case is on retinal image blood vessel segmentation as explained in the blog series:
