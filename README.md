@@ -30,17 +30,17 @@ Download the STARE vessel data
  Download the U-net_TF2_retinal_image_segmentation_STARE.ipynb and run it.
  
  # Step 4: Results:
- The U-net with Depth 4 is trained using 10 images, loss function of binary-crossentropy, Adam optimizer and augmented significnatly using the keras imagedata generator.
- The tensorboard graphs are as follows:
+ * The U-net with Depth 4 is trained using 10 images, loss function of binary-crossentropy, Adam optimizer and augmented significnatly using the keras imagedata generator.
+ * The tensorboard graphs are as follows:
  ![Tensorboard losses after 80 epochs](images/tensorboard.png)
  
- The segmentation perfromances on test images are: 
+ * The segmentation perfromances on test images are: 
  Precision= 0.7557, Recall= 0.8493 IoU= 0.6648 acc= 0.9606 F1= 0.7979
  
- Sample examples are:
+ * Sample examples are:
  Predicted output:  ![Predicted blood vessels](images/pred.png)
  
- Groundtruth: ![Annotated Vessels](images/GT.png)
+ * Groundtruth: ![Annotated Vessels](images/GT.png)
 
           
           
