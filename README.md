@@ -11,10 +11,10 @@ Download the library requirements "requirements.yml" and ensure your python envi
 
 # Step 2: Train and Test Data
 Download the STARE vessel data 
--From the page https://cecas.clemson.edu/~ahoover/stare/probing/index.html
--Download 20 images (top row) followed by the labelled vessels by Adam Hoover (second row). 
--Unpack the images and labels in a local folder.
--Create the following folder structure in your local folder:
+*From the page https://cecas.clemson.edu/~ahoover/stare/probing/index.html
+*Download 20 images (top row) followed by the labelled vessels by Adam Hoover (second row). 
+*Unpack the images and labels in a local folder.
+*Create the following folder structure in your local folder:
     ./STARE/
       --train
           --images
