@@ -38,6 +38,14 @@ Download the STARE vessel data
  * The tensorboard graphs are as follows:
  ![Tensorboard losses after 80 epochs](images/tensorboard.png)
  
+ # How to avoid Errors in the Code?
+ The key component of this U-net framework is that input is an image and output is also an image. 
+ To use the code in this repo AS IS, you HAVE TO unpack the data set as suggested in Step 2.
+ * One way to detect if your Path is incorrectly set is, you will get the message: "Found 0 images beloning to 1 classes". This means the images and GT are not detected. 
+ * If images are not detected, this will lead to a "peek" error while model.fit command is run. 
+* Finally, for tensorboard, if no visualization is created, check the 'logs' folder. If a recored exists then rerun the tensorboard command. This should get things started.
+ 
+ 
  ## The segmentation perfromances on test images are: 
  Precision= 0.7557, Recall= 0.8493 IoU= 0.6648 acc= 0.9606 F1= 0.7979
  
